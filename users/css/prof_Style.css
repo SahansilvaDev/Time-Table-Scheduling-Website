@@ -1,0 +1,100 @@
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: 30px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    background-clip: padding-box;
+    border: 2px solid transparent;
+    background-origin: border-box;
+    background-image: linear-gradient(#fff, #fff),
+        /* White background for the input field */
+        linear-gradient(135deg, #4ADEDE, #66A6EC);
+    background-clip: padding-box, border-box;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.185);
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.custom-file-label {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 50px;
+}
+
+.custom-file-label::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    display: block;
+    height: calc(calc(2.25rem + 2px) - 1px* 2);
+    padding: .375rem .75rem;
+    line-height: 1.5;
+    color: #ffffff;
+    content: "Browse";
+    background: linear-gradient(135deg, #4ADEDE, #66A6EC);
+    border-left: 1px solid transparent;
+    border-radius: 50px;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+#prof-submit {
+    color: #fff;
+    background: linear-gradient(135deg, #4ADEDE, #66A6EC);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.185);
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 50px;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+#prof-submit:hover {
+    color: #ffffff;
+    background: linear-gradient(135deg, #c8ffff, #85bbf5);
+    transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+#prof-submit:active {
+    background: linear-gradient(135deg, #4ADEDE, #66A6EC);
+    transform: scale(1); /* Reset size on click */
+}
+
+#inputState {
+    border-radius: 50px;
+}

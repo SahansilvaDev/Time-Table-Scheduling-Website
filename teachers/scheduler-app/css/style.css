@@ -1,0 +1,93 @@
+/* General Container Styling */
+.container {
+    max-width: 100%;
+}
+
+/* Bootstrap Card Styling */
+.card {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    padding: 15px;
+}
+
+.card-title {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+
+/* Apply your custom styles to FullCalendar's structure */
+.fc .fc-col-header-cell, 
+.fc .fc-daygrid-day {
+  border: 2px solid #00BFFF;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  background-color: #ffffff;
+  color: bisque;
+  color: #333333;
+}
+
+.fc .fc-daygrid-day:hover {
+  background-color: #e0f7fa;
+  cursor: pointer;
+}
+
+.fc .fc-col-header-cell {
+  background-color: #f2f2f2;
+  color: #222020;
+  border-radius: 10px 10px 0 0; 
+}
+
+.fc .fc-scrollgrid {
+  border-collapse: separate;
+  width: 100%;
+
+  border: 2px solid #00BFFF;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden; 
+  color: bisque;
+}
+
+
+/* drop down schedule */
+
+
+.fc-more-popover {
+  background-color: #f8f9fa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 16;
+}
+
+.fc-more-popover .fc-daygrid-event {
+  background-color: #007bff;
+  color: rgb(104, 100, 100);
+  border: none;
+  padding: 0px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+
+}
+
+/* CSS styles for 12px font size */
+/* .fc-event-title {
+  font-size: 12px !important;
+}
+
+.modal-title, .modal-body, .modal-footer {
+  font-size: 12px !important;
+}
+
+.card-title, .card-body, .btn {
+  font-size: 12px !important;
+} */
+
