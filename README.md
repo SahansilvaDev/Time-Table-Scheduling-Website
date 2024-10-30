@@ -17,4 +17,3 @@ Website
 -------------- User Profile Updating --------------
 
 ![image](https://github.com/user-attachments/assets/e3d7a99c-8b6c-44e8-ad7d-b886de73b42e)
-![image](https://github.com/user-attachments/assets/69e4940e-7aa8-4ea1-ad8b-98500cc24e90)
